@@ -1,1 +1,1 @@
-# Ransomeware_WannaCry_V4
+# Report about ransomeware WannaCry
