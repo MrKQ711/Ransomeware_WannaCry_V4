@@ -24,7 +24,7 @@ WANNACRY – RANSOMEWARE
 1. PREPARED
 - The FlareVM that is disable the internet so that the VM and the host is isolated.
 - We have all of tools we need in FlareVM.
-1. EXECUTIVE SUMMARY
+2. EXECUTIVE SUMMARY
     
     ![WANNACRY%20508423cfe30643349c015ebf0547358a/image1.png](WANNACRY%20508423cfe30643349c015ebf0547358a/image1.png)
     
@@ -34,7 +34,7 @@ WANNACRY – RANSOMEWARE
 
 > 
 > 
-1. HIGH-LEVEL TECHNICAL SUMMARY
+3. HIGH-LEVEL TECHNICAL SUMMARY
 - It consists of two parts:
 
 > + Stage 0: executable and an unpacked.
@@ -49,7 +49,7 @@ WANNACRY – RANSOMEWARE
     
     ![WANNACRY%20508423cfe30643349c015ebf0547358a/image3.png](WANNACRY%20508423cfe30643349c015ebf0547358a/image3.png)
     
-1. MALWARE COMPOSITON
+4. MALWARE COMPOSITON
 - It contains of two composition:
 
 | Ransomeware.wannacry.exe | 24D004A104D4D54034DBCFFC2A4B19A11F39008A575AA614EA04703480B1022C |
@@ -71,7 +71,7 @@ WANNACRY – RANSOMEWARE
     
     + It starts encrypting all the files and after that it displays the ransomeware popup and message.
     
-1. BASIC STATIC ANALYSIS
+5. BASIC STATIC ANALYSIS
 - Strings – Extracted using Floss
     
     ![WANNACRY%20508423cfe30643349c015ebf0547358a/image4.png](WANNACRY%20508423cfe30643349c015ebf0547358a/image4.png)
@@ -140,7 +140,7 @@ WANNACRY – RANSOMEWARE
     
     ![WANNACRY%20508423cfe30643349c015ebf0547358a/image17.png](WANNACRY%20508423cfe30643349c015ebf0547358a/image17.png)
     
-1. BASIC DYNAMIC ANALYSIS
+6. BASIC DYNAMIC ANALYSIS
 - Analysis with fakenet turned on (Using wireshark to analysize)
 - Network traffic when malware is executed. The requests are unreachable.
     
@@ -201,7 +201,7 @@ WANNACRY – RANSOMEWARE
     
     ![WANNACRY%20508423cfe30643349c015ebf0547358a/image31.jpeg](WANNACRY%20508423cfe30643349c015ebf0547358a/image31.jpeg)
     
-1. INDICATORS OF COMPROMISE
+7. INDICATORS OF COMPROMISE
 - Network Indicators
 - Locating other machines and exploiting them using 445 port (SMB)
     
@@ -216,7 +216,7 @@ WANNACRY – RANSOMEWARE
     
     ![WANNACRY%20508423cfe30643349c015ebf0547358a/image27.png](WANNACRY%20508423cfe30643349c015ebf0547358a/image27.png)
     
-1. YARA RULE
+8. YARA RULE
     
     (Yara rules are predefined rules that are used to automatically detect and classify malware by using keywords, list of constants, regular expressions, combining conditions, and other operations. These rules can be used to identify malicious code, detect specific behavior, and alert security teams to potential threats.)
     
