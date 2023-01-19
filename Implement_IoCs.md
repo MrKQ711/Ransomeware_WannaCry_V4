@@ -46,10 +46,9 @@ WannaCry Extensions Encrypted by WannaCry Ransomware
 
 | Security Control | Control Summary |
 | --- | --- |
-| Patch the vulnerability.Apply patches for MS17-010 from Microsoft. This also includes patches under KB4012598 for end-of-life Microsoft Windows operating systems. | This patch mitigates the exploits revealed by the NSA Shadow Brokers dump. |
-| Contain the spread of the ransomware.
-+ Disable outdated and legacy protocol SMBv1 | The exploit takes advantage of vulnerabilities in the SMB protocol in an organization’s network.
-• A quick way to verify that SMBv1 is disable is through the Windows registry.
+| Patch the vulnerability. Apply patches for MS17-010 from Microsoft. This also includes patches under KB4012598 for end-of-life Microsoft Windows operating systems. | This patch mitigates the exploits revealed by the NSA Shadow Brokers dump. |
+| Contain the spread of the ransomware. Disable outdated and legacy protocol SMBv1 | The exploit takes advantage of vulnerabilities in the SMB protocol in an organization’s network.
+ • A quick way to verify that SMBv1 is disable is through the Windows registry.
 • LanmanServer\Parameters\SMB1 for value 0 (which will be disable, 1 is enable)
 • Another option is through Powershell.
 • Also block incoming SMB traffic over port 445
