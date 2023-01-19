@@ -44,7 +44,7 @@ WannaCry Extensions Encrypted by WannaCry Ransomware
 | --- | --- |
 | WannaCry Command and Control over the TOR network | The WannaCry ransomware communications are done using the anonymous TOR network |
 | WannaCry ONION sites | The ransomware tries to connect to various .onion sites as part of its infection propagation process |
-4. WannaCry Command and Control TOR Network
+3. WannaCry Command and Control TOR Network
 - The following is the list of TOR gateway nodes that the WannaCry ransomware tries to establish connections to all command and control of the malware port infection is done by utilizing these TOR nodes. Osprey Security recommends that the following IP addresses be blocked for any outbound network communications. Also, monitor for all traffic originating over port 9001. Detect and block accesses on IP addresses communicating over port 80/443 and that do not resolve in a domain.
 - The following list below has been sourced from various security partners and leaders in McAfee, IBM XForce, Cisco Talos and Payload Security sandbox.
 
@@ -127,7 +127,7 @@ WannaCry Extensions Encrypted by WannaCry Ransomware
 > 
 > 213.239.216.222:443
 > 
-5. WannaCry Onion Sites
+4. WannaCry Onion Sites
 - The Onion sites are part of the TOR network and typically constitutes the dark web of the Internet. The WannaCry ransomware tries to connect to various .onion sites which are listed below
 
 > iuqerfsodp9ifjaposdfjhgosurijfaewrwergwea[.]com (sinkholed)
@@ -137,7 +137,7 @@ WannaCry Extensions Encrypted by WannaCry Ransomware
 > 
 > 57g7spgrzlojinas.onion Xxlvbrloxvriy2c5.onion 76jdd2ir2embyv47.onion cwwnhwhlz52maqm7.onion sqjolphimrr7jqw6.onion
 > 
-6. WannaCry File Names
+5. WannaCry File Names
     
     d5e0e8694ddc0548d8e6b87c83d50f4ab85c1debadb106d6a6a794c3e746f4fa        b.wnry
     
@@ -155,7 +155,7 @@ WannaCry Extensions Encrypted by WannaCry Ransomware
     
     b9c5d4339809e0ad9a00d4d3dd26fdf44a32819a54abf846bb9b560d81391c25        u.wnry
     
-77. WannaCry Hashes / IoCs
+6. WannaCry Hashes / IoCs
 
 | File Names | MD5 | SHA256 |
 | --- | --- | --- |
@@ -173,7 +173,7 @@ WannaCry Extensions Encrypted by WannaCry Ransomware
 | Cmd.Exe | 66DDBD108B0C347550F18BB953E1831D | F7C7B5E4B051EA5BD0017803F40AF 13BED224C4B0FD60B890B6784DF5
 BD63494 |
 | WCry_WannaCry_ransomware.exe | 4DA1F312A214C07143ABEEAFB695 D904 | AEE20F9188A5C3954623583C6B0E6623EC90D5CD3FDEC4E1001646E27664002C |
-8. File Name Extensions Encrypted By WannaCry Ransomware
+7. File Name Extensions Encrypted By WannaCry Ransomware
 
 > .der, .pfx, .key, .crt, .csr, .p12, .pem, .odt, .sxw, .stw, .3ds,
 > 
