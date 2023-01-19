@@ -10,10 +10,6 @@ Background
 
 ---
 
-WannaCry Mitgation
-
----
-
 WannaCry Detection and Indicators of Compromise
 
 ---
@@ -41,26 +37,7 @@ WannaCry Extensions Encrypted by WannaCry Ransomware
 1. Background
 - WannaCry falls under the classification of Ransomware or more specifically Crypto ransomware. Organizations infected with WannaCry will encrypt the files and other user data and seeks out a ransom in bitcoins (typically USD $300-$600). The WannaCry ransomware has worm like capabilities and uses a known SMB (Server Message Block) vulnerability in the Microsoft Windows operating system. SMB is a protocol that allows for file-sharing over a company network. Once the initial machine is infected, the malware scans for other vulnerable machines in the network, looking for network shares and removable storage devices. 
 - It checks for certain file extensions and encrypts them using strong encryption.
-2. WannaCry Mitigation
-- The table below provides a list of mitigation techniques for the WannaCry ransomware attack.
-
-| Security Control | Control Summary |
-| --- | --- |
-| Patch the vulnerability. Apply patches for MS17-010 from Microsoft. This also includes patches under KB4012598 for end-of-life Microsoft Windows operating systems. | This patch mitigates the exploits revealed by the NSA Shadow Brokers dump. |
-| Contain the spread of the ransomware. Disable outdated and legacy protocol SMBv1 | The exploit takes advantage of vulnerabilities in the SMB protocol in an organization’s network.
- • A quick way to verify that SMBv1 is disable is through the Windows registry.
-• LanmanServer\Parameters\SMB1 for value 0 (which will be disable, 1 is enable)
-• Another option is through Powershell.
-• Also block incoming SMB traffic over port 445
-• Additionally, filter and block NetBIOS port 139 from allexternally accessible hosts.
-• Filter RDP port 3389 to prevent WannacRY from infecting other devices within that network. |
-| Monitor and block the WannaCry network indicators of compromise. These are listed in the section below | • These include blocking outbound traffic on port 9001
-• Also includes blocking outgoing request to IP address on port 80/443 that do not resolve into a domain
-• Also, there should be not rationale for a device on your company network to connect to a TOR node. Block all outbound connections to TOR exit nodes.
-• Sinkhole the kill-switch domains and redirect the following to webserver in your control.
-• hxxp://iuqerfsodp9ifjaposdfjhgosurijfaewrwergwea.com |
-| Advanced deception techniques | WannaCry malware has behavior that avoids infecting the same machine twice. It does this by creating a mutex infection maker on that host. |
-3. WannaCry Detection and Indicators of Compromise
+2. WannaCry Detection and Indicators of Compromise
 - The table below is quick summary of all the know indicators of compromises for the WannaCry ransomware, how to detect it within your environment.
 
 | Ransomware indicator | Malware Technique Summary |
