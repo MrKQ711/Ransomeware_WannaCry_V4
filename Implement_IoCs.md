@@ -139,21 +139,21 @@ WannaCry Extensions Encrypted by WannaCry Ransomware
 > 
 6. WannaCry File Names
     
-    d5e0e8694ddc0548d8e6b87c83d50f4ab85c1debadb106d6a6a794c3e746f4fa b.wnry
+    d5e0e8694ddc0548d8e6b87c83d50f4ab85c1debadb106d6a6a794c3e746f4fa        b.wnry
     
-    055c7760512c98c8d51e4427227fe2a7ea3b34ee63178fe78631fa8aa6d15622 c.wnry
+    055c7760512c98c8d51e4427227fe2a7ea3b34ee63178fe78631fa8aa6d15622        c.wnry
     
-    402751fa49e0cb68fe052cb3db87b05e71c1d950984d339940cf6b29409f2a7c r.wnry
+    402751fa49e0cb68fe052cb3db87b05e71c1d950984d339940cf6b29409f2a7c        r.wnry
     
-    e18fdd912dfe5b45776e68d578c3af3547886cf1353d7086c8bee037436dff4b s.wnry
+    e18fdd912dfe5b45776e68d578c3af3547886cf1353d7086c8bee037436dff4b        s.wnry
     
-    4a468603fdcb7a2eb5770705898cf9ef37aade532a7964642ecd705a74794b79 taskdl.exe
+    4a468603fdcb7a2eb5770705898cf9ef37aade532a7964642ecd705a74794b79        taskdl.exe
     
-    2ca2d550e603d74dedda03156023135b38da3630cb014e3d00b1263358c5f00d tasksche.exe
+    2ca2d550e603d74dedda03156023135b38da3630cb014e3d00b1263358c5f00d        tasksche.exe
     
-    97ebce49b14c46bebc9ec2448d00e1e397123b256e2be9eba5140688e7bc0ae6 t.wnry
+    97ebce49b14c46bebc9ec2448d00e1e397123b256e2be9eba5140688e7bc0ae6        t.wnry
     
-    b9c5d4339809e0ad9a00d4d3dd26fdf44a32819a54abf846bb9b560d81391c25 u.wnry
+    b9c5d4339809e0ad9a00d4d3dd26fdf44a32819a54abf846bb9b560d81391c25        u.wnry
     
 77. WannaCry Hashes / IoCs
 
